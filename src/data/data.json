@@ -1,68 +1,149 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Discover, Rewind Transform",
+    "paragraph": "Join us for an incredible fourteen-day journey of personal growth, where you'll uncover your purpose, find tranquility in your mind, and indulge in moments of pure joy. Embrace this opportunity to elevate your well-being while enjoying all the extra perks that come with being a part of this exhilarating experience."
   },
-  "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
-  },
+"About": [
+    {
+      "name": "Sabine Kaiser",
+      "image": "img/sabine1.jpg",
+      "paragraph": "Sabine is a holistic FACE READING and behavioral expert who utilizes modern and ancient face reading methods and body language interpretation to translate all information into a life-changing personal message for her clients.",
+      "paragraph2": "With her unique skill set she helps people worldwide reconnect with themselves to uncover their true purpose in life, understand their personality traits, primary motivators and talents, and enhance their relationships in their private and business life.",
+      "paragraph3": "After working with Sabine individuals and business leaders understand themselves, others and situations with clarity, have higher self-esteem, enhanced relationships, improved communication skills and more success & revenue in business.",
+      "website": "https://yourfaceisthekey.com",
+      "Why": [
+        "Competitor evaluation, investment assessment, and negotiation insights",
+        "Attracting top talent for influential roles.",
+        "Understanding the motivations of yourself and others.",
+        "Surrounding yourself with supportive individuals."
+      ],
+      "Why2": [
+        "Making informed decisions and closing high-stakes deals.",
+        "Minimizing risk, seizing opportunities, and saving resources.",
+        "Building confidence and eliminating self-doubt.",
+        "Achieving balance, fulfillment, and good health."
+      ]
+    },
+    {
+      "name": "Andrea O’Donnell",
+      "image": "img/andrea1.jpeg",
+      "paragraph": "Andrea is a certified Nutritional Therapy Practitioner, Breathwork Facilitator, and owner of Rising Roots Nutrition. With over a decade of experience, she excels at addressing the root causes of symptoms like digestive issues, fatigue, weight challenges, and hormonal imbalances.",
+      "paragraph2": "Andrea's own health struggles with sugar cravings, digestive problems, anxiety, and hormonal issues ignited her passion for helping others. She uses advanced testing and assessment tools to provide personalized recommendations for each client's needs.",
+      "paragraph3": "Her services include 1:1 consultations, functional lab testing, and group coaching. Andrea is passionate about helping to empower others on their health journey through education and offers unwavering support and accountability, helping clients regain energy, curb cravings, and eliminate brain fog.",
+      "website": "https://risingrootsnutrition.com",
+      "Why": [
+        "1:1 coaching and nutritional support", 
+        "Group Coaching, Corparate Training", 
+        "12-week Metabolic Makeover Method program - group coaching program",
+        "Public speaking for workshops, training and events"
+      ],
+      "Why2": [
+        "In-person and virtual grocery store tours and pantry clean-out", 
+        "5-week sugar detox program - group coaching program", 
+        "Public speaking for workshops, training and events",
+        "Functional Lab testing"
+      ]
+    },
+    {
+      "name": "Jana Hungate",
+      "image": "img/jana1.jpeg",
+      "paragraph": "Jana Hungate, the founder of BALM Wellness, is a holistic wellness expert, educator, and intuitive bodyworker, committed to helping individuals achieve better health naturally. Her approach blends European wellness traditions with contemporary techniques such as stress management, Neuro Linguistic Programming, aromatherapy, breathwork, yoga, and spa treatments, creating a comprehensive and holistic experience for her clients. Jana is a dynamic speaker, known for her powerful message: \"Every BODY has a story.\"",
+      "paragraph2": "She effectively elevates company employees with a crafted wellness experience tailored to culture needs and corporate mindset, fostering employee well-being, retention, and productivity, whether onsite or online. She provides practical and accessible workplace wellness tips to prevent burnout while supporting brain health and improved self-communication.",
+      "paragraph3": "",
+      "website": "https://www.balmwellness.com",
+      "Why": [
+        "Customized Wishlist with Wellness Products tailored to your specific needs (Young Living)", 
+        "iTovi Scan – on cruise and Orange County CA", 
+        "Meditation, Yoga, and Aromatherapy"
+      ],
+      "Why2": [
+        "BALM Wellness Bag with massage tools in small pouch – great for travel: Includes Jade Roller, Reflexology Ring, Wooden Massage Balls, Lymphatic Dry Brush (available for purchase)",
+        "Bodywork Sessions (Orange County, CA only)", 
+        "Spa Day (Orange County, CA only)"
+      ]
+    },
+    {
+      "name": "Jane Shobe",
+      "image": "img/jane1.jpg",
+      "paragraph": "Jane is the Owner and CEO of Expedia Cruises in Laguna Niguel.",
+      "paragraph2": "Jane has always had a deep passion for travel and has been to many countries around the world.  Her ideas have developed from wanting to explore more by putting together unique custom trips.  Small groups of 16-20 people on land tours and up to 30 on cruise tours.  She has found that putting together like minded travelers the experience is more enjoyable and a lot of fun.",
+      "paragraph3": "Now Jane is excited to present a new wave of travel hosting health and wellness educational programs through our - New Me @ Sea series of events.  Explore the World – Explore the Possibilities of Health and Wellness together.  She looks forward to welcoming you into our travel club!",
+      "website": "https://www.facebook.com/jane1201",
+      "Why": [
+        "Full concierge service for all your travel needs", 
+        "Custom tours and events", 
+        "Personalized and hosted vacations throughout the world"
+      ],
+      "Why2": [
+        "Small Group Land Tours", 
+        "Hosted cruises and planning services", 
+        "Unique experiences and exclusive deals"
+      ]
+    }
+  ],
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Life on Board",
+      "largeImage": "img/portfolio/bar.jpeg",
+      "smallImage": "img/portfolio/bar.jpeg",
+      "leftImage": "img/portfolio/barLeft.jpeg",
+      "rightImage": "img/portfolio/barRight.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Luxurious Cabins",
+      "largeImage": "img/portfolio/cabin.jpeg",
+      "smallImage": "img/portfolio/cabin.jpeg",
+      "leftImage": "img/portfolio/cabinLeft.jpeg",
+      "rightImage": "img/portfolio/cabinRight.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Lively Entertainment",
+      "largeImage": "img/portfolio/entertainment.jpg",
+      "smallImage": "img/portfolio/entertainment.jpg",
+      "leftImage": "img/portfolio/entertainmentLeft.jpg",
+      "rightImage": "img/portfolio/entertainmentRight.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Relax by the Pool",
+      "largeImage": "img/portfolio/pool.jpeg",
+      "smallImage": "img/portfolio/pool.jpeg",
+      "leftImage": "img/portfolio/poolLeft.jpeg",
+      "rightImage": "img/portfolio/poolRight.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Regenerate at the Spa",
+      "largeImage": "img/portfolio/spa.jpeg",
+      "smallImage": "img/portfolio/spa.jpeg",
+      "leftImage": "img/portfolio/spaLeft.jpeg",
+      "rightImage": "img/portfolio/spaRight.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Exquisite Design",
+      "largeImage": "img/portfolio/staircase.jpeg",
+      "smallImage": "img/portfolio/staircase.jpeg",
+      "leftImage": "img/portfolio/staircaseLeft.jpeg",
+      "rightImage": "img/portfolio/staircaseRight.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Dining with a View",
+      "largeImage": "img/portfolio/dining2.jpeg",
+      "smallImage": "img/portfolio/dining2.jpeg",
+      "leftImage": "img/portfolio/dining2Left.jpeg",
+      "rightImage": "img/portfolio/dining2Right.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Ode to Canada",
+      "largeImage": "img/portfolio/canada.jpeg",
+      "smallImage": "img/portfolio/canada.jpeg",
+      "leftImage": "img/portfolio/canadaLeft.jpeg",
+      "rightImage": "img/portfolio/canadaRight.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Explore Boston",
+      "largeImage": "img/portfolio/boston4.webp",
+      "smallImage": "img/portfolio/boston4.webp",
+      "leftImage": "img/portfolio/bostonLeft.jpg",
+      "rightImage": "img/portfolio/bostonRight.jpg"
     }
   ],
   "Services": [
@@ -152,33 +233,33 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "23866 Aliso Creek Road, Laguna Niguel, CA 92677 ",
+    "phone": "(949) 273-5444",
+    "email": "jshobe@expediacruises.com",
+    "facebook": "https://www.facebook.com/jane1201",
+    "twitter": "https://x.com/expediacruises?lang=en",
+    "youtube": ""
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cutlery",
+      "title": "Dining",
+      "text": "Menus span from the casual to the opulent. One chef for every 10 guests, ensuring 50% of crew members are dedicated to culinary experiences."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-leaf",
+      "title": "Onboard Enrichment",
+      "text": "Onboard enrichment, including art classes at Oceania Cruises’ much-loved Artist Loft, numerous guest speakers and sommelier demonstrations during exclusive Sommelier’s Choice and Cellar Master’s Classic Wine Pairing Luncheons"
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Expert Guided Seminars",
+      "text": "Our experts will guide you in class seminars plus physical training in posture, breathing, mind training, and dance."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Entertainment",
+      "text": "A delightfully engaging spectrum of enriching activities and lively entertainment. A unique lineup of rousing onboard shows"
     }
   ]
 }

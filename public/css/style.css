@@ -35,6 +35,10 @@ h5 {
   font-weight: 700;
   line-height: 20px;
 }
+
+.names {
+  text-align: center;
+}
 p {
   font-size: 15px;
 }
@@ -70,6 +74,7 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
 /* Navigation */
 #menu {
   padding: 15px;
@@ -208,7 +213,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/oceania_allura2.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,16 +226,18 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 65px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 205px;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0)
 }
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
+
 .intro p {
   color: #fff;
   font-size: 22px;
@@ -238,12 +245,22 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0)
 }
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .intro h1 {
+    margin-top: -210px; /* Adjust margin top for smaller screens */
+    margin-bottom: 170px;
+    font-size: 50px;
+  }
+}
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -262,7 +279,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 100px 0;
+  padding: 30px 0;
 }
 #about h3 {
   font-size: 22px;
@@ -305,7 +322,7 @@ header .intro-text {
 }
 #about p {
   line-height: 24px;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 /* Services Section */
 #services {
@@ -351,34 +368,45 @@ header .intro-text {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
+
 #portfolio {
-  padding: 100px 0;
+  padding-top: 100px 0;
 }
+
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
+  width: 385px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  overflow: hidden; /* Ensure any overflow is hidden */
+  position: relative; /* Ensure relative positioning for absolute children */
 }
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images cover the entire container */
+}
+
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;
 }
+
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  background: linear-gradient(to right, rgba(99, 114, 255, 0.8) 0%, rgba(92, 169, 251, 0.8) 100%);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: all 0.5s;
 }
+
 .hover-bg .hover-text > h4 {
   opacity: 0;
   color: #fff;
@@ -390,15 +418,18 @@ header .intro-text {
   font-weight: 500;
   text-transform: uppercase;
 }
+
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
+
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
@@ -602,5 +633,105 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+
+/* itinerary*/
+
+.outer-container {
+  background-image: url('../img/itinerarypic.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.itinerary-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.outer-container .section-title h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.itinerary-container h1 {
+  color: white;
+  font-size: 2.0em;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.itinerary-container p {
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.itinerary-details {
+  display: grid;
+  gap: 10px;
+  font-size: 1.4em;
+}
+
+.day {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.day-location {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  white-space: nowrap;
+  display: inline-block; /* or flex, depending on your layout needs */
+}
+
+.day span {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .outer-container {
+    background-image: url('../img/NYphonepic.jpg');
+    background-size: 100% auto; /* Adjusted to cover 100% of the width and auto for height */
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+  }
+
+  .itinerary-container h1 {
+    font-size: 1.5em;
+  }
+
+  .itinerary-container p {
+    font-size: 0.9em;
+  }
+
+  .day {
+    grid-template-columns: 1fr;
+  }
+
+  .day span {
+    text-align: left;
   }
 }
