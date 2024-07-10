@@ -5,13 +5,15 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>VIP Package</h2>
+          <h4>Our VIP Package deal includes:</h4>
+          <p>3 Days of Teaching (4 hours each)</p>
+          <p>E-books from Andrea, Jana, and Sabine</p>
+          <p>Various Merchandise</p>
+          <h3>$695/person, valued at $6,500</h3>
+          <p>Please contact Jane at (949) 273-5444 or send a message below for pricing on cruise cabins.</p>
         </div>
-        <div id="row">
+        {/* <div id="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
@@ -26,7 +28,7 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </div>
+        </div> */}
       </div>
     </div>
   );

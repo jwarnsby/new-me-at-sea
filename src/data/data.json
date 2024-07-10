@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Discover, Rewind Transform",
-    "paragraph": "Join us for an incredible fourteen-day journey of personal growth, where you'll uncover your purpose, find tranquility in your mind, and indulge in moments of pure joy. Embrace this opportunity to elevate your well-being while enjoying all the extra perks that come with being a part of this exhilarating experience."
+    "paragraph": ""
   },
 "About": [
     {
@@ -181,32 +181,22 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "I recently had the opportunity to participate in one of BALM Wellness' corporate events, and it was a truly transformative experience. The workshops, burnout prevention, aromatherapy and holistic treatments provided a perfect blend of relaxation and personal growth. Jana's knowledge and passion for wellness are evident in every aspect of each session.",
       "name": "John Doe"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "Andrea from Rising Roots Nutrition has made a huge change in my life. Although I wanted to lose weight, this whole process has been so much more. We have worked on lowering the internal inflammation within my systems, improved my gut health and I have lost 19 pounds!",
       "name": "Johnathan Doe"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "Jane at Expedia Cruises in Laguna Niguel is the only travel agent you'll ever need. Her experience in the industry is unrivaled. She can put together any type of land or sea package you'll need, on your budget and on time.",
       "name": "John Doe"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "Sabine is my go-to consultant for private development and a trusted advisor for our business. Her unique method has helped me gain a deeper understanding of myself and those around me. Through her keen observations and practical advice, I've navigated challenges with more confidence, achieving greater balance and fulfillment in my life. Working with Sabine is incredibly unique and powerful.",
       "name": "Johnathan Doe"
     }
   ],
@@ -243,8 +233,8 @@
   "Features": [
     {
       "icon": "fa fa-cutlery",
-      "title": "Dining",
-      "text": "Menus span from the casual to the opulent. One chef for every 10 guests, ensuring 50% of crew members are dedicated to culinary experiences."
+      "title": "Culinary Marvels at Sea",
+      "text": "Prepare to be captivated by Ember, the latest addition to the Oceania Cruises family of restaurants, and Aquamar Kitchen, where a medley of indulgent, wellness-inspired dishes await. Menus span from the casual to the opulent. One chef for every 10 guests."
     },
     {
       "icon": "fa fa-leaf",

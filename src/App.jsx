@@ -41,12 +41,14 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Services data={landingPageData.Services} /> 
       {isDesktop ? (
         <Gallery data={landingPageData.Gallery} />
       ) : (
         <ImageGallery data={landingPageData.Gallery} />
       )}
       <Features data={landingPageData.Features} />
+      <CruiseItinerary />
       {landingPageData.About && landingPageData.About.length > 0 && (
         <div className="container">
           <div className="row">
@@ -59,10 +61,8 @@ const App = () => {
           ))}
         </div>
       )}
-      <CruiseItinerary />
-      {/* <Services data={landingPageData.Services} />  */}
       <Testimonials data={landingPageData.Testimonials} /> 
-      {/* <Team data={landingPageData.Team} />  */}
+      <Team data={landingPageData.Team} /> 
       <Contact data={landingPageData.Contact} />
     </div>
   );
