@@ -27,21 +27,21 @@ export const CruiseItinerary = () => {
           </div>
           <div className="day">
             <div className="day-location">
-              <strong>Day 3: </strong> <i>Boston</i>
+              <strong>Day 3: </strong> <i>Boston, MA</i>
             </div>
-            <span>Enjoy a fun day in Boston</span>
+            <span>Enjoy a historic day in Boston</span>
           </div>
           <div className="day">
             <div className="day-location">
-              <strong>Day 4: </strong> <i>Portland</i>
+              <strong>Day 4: </strong> <i>Portland, ME</i>
             </div>
-            <span>Enjoy a fun day in Portland</span>
+            <span>Seek out the World’s most photographed lighthouses!</span>
           </div>
           <div className="day">
             <div className="day-location">
-              <strong>Day 5: </strong> <i>Saint John (Bay Of Fundy)</i>
+              <strong>Day 5: </strong> <i>St John, ME</i>
             </div>
-            <span>Enjoy a fun day in Saint John</span>
+            <span>Adventure awaits in The Bay of Fundy</span>
           </div>
           <div className="day">
             <div className="day-location">
@@ -59,19 +59,19 @@ export const CruiseItinerary = () => {
             <div className="day-location">
               <strong>Day 8: </strong> <i>Quebec City</i>
             </div>
-            <span>Enjoy a fun overnight stay in Quebec City</span>
+            <span>Enjoy a fun overnight stay in Quebec City and cocktails at the Château Frontenac</span>
           </div>
           <div className="day">
             <div className="day-location">
               <strong>Day 9: </strong> <i>Quebec City</i>
             </div>
-            <span>Enjoy another fun day in Quebec City</span>
+            <span>Fall colors and Montmorency Falls</span>
           </div>
           <div className="day">
             <div className="day-location">
               <strong>Day 10: </strong> <i>Saguenay</i>
             </div>
-            <span>Enjoy a fun day in Saguenay</span>
+            <span>Enjoy the great outdoors, visit Fjord-du-Saguenay</span>
           </div>
           <div className="day">
             <div className="day-location">
@@ -83,13 +83,13 @@ export const CruiseItinerary = () => {
             <div className="day-location">
               <strong>Day 12: </strong> <i>Sydney</i>
             </div>
-            <span>Enjoy a fun day in Sydney</span>
+            <span>Peggy’s Cove is a must see tour and don’t miss the World’s largest Fiddle!</span>
           </div>
           <div className="day">
             <div className="day-location">
               <strong>Day 13: </strong> <i>Halifax</i>
             </div>
-            <span>Enjoy a fun day in Halifax</span>
+            <span>The Waterfront is great place to wander and eat!</span>
           </div>
           <div className="day">
             <div className="day-location">
