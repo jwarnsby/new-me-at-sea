@@ -128,6 +128,8 @@ export const Contact = (props) => {
                     <option value="Sabine">Sabine</option>
                     <option value="Jana">Jana</option>
                     <option value="Andrea">Andrea</option>
+                    <option value="Andrea">Social Media</option>
+                    <option value="Andrea">Other</option>
                   </select>
                   <p className="help-block text-danger"></p>
                 </div>
