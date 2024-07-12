@@ -5,6 +5,7 @@ const initialState = {
   name: "",
   email: "",
   message: "",
+  referredBy: "", // Add initial state for referredBy
 };
 
 export const Contact = (props) => {
@@ -52,7 +53,6 @@ export const Contact = (props) => {
         }
       );
   };
-  
 
   return (
     <div>
@@ -79,6 +79,7 @@ export const Contact = (props) => {
                         placeholder="Name"
                         required
                         onChange={handleChange}
+                        value={formData.name}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -93,6 +94,7 @@ export const Contact = (props) => {
                         placeholder="Email"
                         required
                         onChange={handleChange}
+                        value={formData.email}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -107,7 +109,26 @@ export const Contact = (props) => {
                     placeholder="Number of travelers, any comments or questions"
                     required
                     onChange={handleChange}
+                    value={formData.message}
                   ></textarea>
+                  <p className="help-block text-danger"></p>
+                </div>
+                <div className="form-group">
+                  <p>Referred By:</p>
+                  <select
+                    name="referredBy"
+                    id="referredBy"
+                    className="form-control"
+                    onChange={handleChange}
+                    value={formData.referredBy}
+                    required
+                  >
+                    <option value="" disabled>Select...</option>
+                    <option value="Jane">Jane</option>
+                    <option value="Sabine">Sabine</option>
+                    <option value="Jana">Jana</option>
+                    <option value="Andrea">Andrea</option>
+                  </select>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
