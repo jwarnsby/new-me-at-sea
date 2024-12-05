@@ -7,7 +7,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>VIP Package</h2>
           <h4>Our VIP Package deal includes:</h4>
-          <p>3 Day Interactive Workshops and Classes about Mindfullness, Holistic Health & Resilience, Self Growth, and Leadership</p>
+          <p>Interactive Workshops and Classes about Mindfullness, Holistic Health & Resilience, Self Growth, and Leadership</p>
           <p>E-Books and Additional Course Material</p>
           <p>Exclusive Merchandise</p>
           <h3>$695/person, valued at $6,500</h3>

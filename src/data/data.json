@@ -132,18 +132,18 @@
       "rightImage": "img/portfolio/dining2Right.jpeg"
     },
     {
-      "title": "Ode to Canada",
-      "largeImage": "img/portfolio/canada.jpeg",
-      "smallImage": "img/portfolio/canada.jpeg",
-      "leftImage": "img/portfolio/canadaLeft.jpeg",
-      "rightImage": "img/portfolio/canadaRight.jpeg"
+      "title": "Beautiful Istanbul",
+      "largeImage": "img/portfolio/istanbul.jpg",
+      "smallImage": "img/portfolio/istanbul.jpg",
+      "leftImage": "img/portfolio/istanbulleft.jpg",
+      "rightImage": "img/portfolio/istanbulright.jpg"
     },
     {
-      "title": "Explore Boston",
-      "largeImage": "img/portfolio/boston4.webp",
-      "smallImage": "img/portfolio/boston4.webp",
-      "leftImage": "img/portfolio/bostonLeft.jpg",
-      "rightImage": "img/portfolio/bostonRight.jpg"
+      "title": "Explore Santorini",
+      "largeImage": "img/portfolio/santorini.jpg",
+      "smallImage": "img/portfolio/santorini.jpg",
+      "leftImage": "img/portfolio/santorinileft.jpg",
+      "rightImage": "img/portfolio/santoriniright.jpg"
     }
   ],
   "Services": [
