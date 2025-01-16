@@ -38,7 +38,7 @@ export const ImageGallery = ({ data }) => {
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Gallery</h2>
           <p>
-            Explore the beautiful Oceania Allura!
+            Explore the beautiful Celebrity Ascent!
           </p>
         </div>
       </div>

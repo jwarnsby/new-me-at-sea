@@ -228,13 +228,13 @@
   "Features": [
     {
       "icon": "fa fa-cutlery",
-      "title": "Culinary Marvels at Sea",
-      "text": "Prepare to be captivated by Ember, the latest addition to the Oceania Cruises family of restaurants, and Aquamar Kitchen, where a medley of indulgent, wellness-inspired dishes await. Menus span from the casual to the opulent."
+      "title": "Culinary Experience",
+      "text": "What you eat on vacation is almost as important as where you go, and on every Celebrity vacation, we bring both those things together perfectly. The captivating scents and flavors of your dining experience will transport you to new places—without even leaving your table."
     },
     {
       "icon": "fa fa-leaf",
       "title": "Onboard Enrichment",
-      "text": "Onboard enrichment, including art classes at Oceania Cruises’ much-loved Artist Loft, numerous guest speakers and sommelier demonstrations during exclusive Sommelier’s Choice and Cellar Master’s Classic Wine Pairing Luncheons"
+      "text": "Discover the excitement of exploring new places that inspire wonder, spark curiosity, and transform your perspective. Aboard Celebrity Ascent℠, experience destinations designed to amaze, entertain, and transport you, crafted by world-renowned architects, designers, and creative teams."
     },
     {
       "icon": "fa fa-group",
@@ -244,7 +244,7 @@
     {
       "icon": "fa fa-magic",
       "title": "Entertainment",
-      "text": "A delightfully engaging spectrum of enriching activities and lively entertainment. A unique lineup of rousing onboard shows"
+      "text": "The entertainment aboard Ascent raises the bar on entertainment to even greater heights. With hand-picked, top-class artists and musicians from all over the world, we have two separate casts onboard to delight our audiences in various venues and unexpected moments throughout the cruise."
     }
   ]
 }
