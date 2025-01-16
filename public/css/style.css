@@ -213,7 +213,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/oceania_allura2.jpg) center center no-repeat;
+  background: url(../img/celebrity_ascent2.avif) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -248,8 +248,8 @@ a:focus,
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0)
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 375px;
   text-align: center;
 }
 
