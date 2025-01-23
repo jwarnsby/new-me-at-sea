@@ -84,50 +84,50 @@
   "Gallery": [
     {
       "title": "Life on Board",
-      "largeImage": "img/portfolio/bar.jpeg",
-      "smallImage": "img/portfolio/bar.jpeg",
+      "largeImage": "img/portfolio/martinibar.jpeg",
+      "smallImage": "img/portfolio/martinibar.jpeg",
       "leftImage": "img/portfolio/barLeft.jpeg",
       "rightImage": "img/portfolio/barRight.jpeg"
     },
     {
       "title": "Luxurious Cabins",
-      "largeImage": "img/portfolio/cabin.jpeg",
-      "smallImage": "img/portfolio/cabin.jpeg",
+      "largeImage": "img/portfolio/suite.jpg",
+      "smallImage": "img/portfolio/suite.jpg",
       "leftImage": "img/portfolio/cabinLeft.jpeg",
       "rightImage": "img/portfolio/cabinRight.jpeg"
     },
     {
       "title": "Lively Entertainment",
-      "largeImage": "img/portfolio/entertainment.jpg",
-      "smallImage": "img/portfolio/entertainment.jpg",
+      "largeImage": "img/portfolio/shows.jpeg",
+      "smallImage": "img/portfolio/shows.jpeg",
       "leftImage": "img/portfolio/entertainmentLeft.jpg",
       "rightImage": "img/portfolio/entertainmentRight.jpg"
     },
     {
       "title": "Relax by the Pool",
-      "largeImage": "img/portfolio/pool.jpeg",
-      "smallImage": "img/portfolio/pool.jpeg",
+      "largeImage": "img/portfolio/poolnight.jpeg",
+      "smallImage": "img/portfolio/poolnight.jpeg",
       "leftImage": "img/portfolio/poolLeft.jpeg",
       "rightImage": "img/portfolio/poolRight.jpeg"
     },
     {
       "title": "Regenerate at the Spa",
-      "largeImage": "img/portfolio/spa.jpeg",
-      "smallImage": "img/portfolio/spa.jpeg",
+      "largeImage": "img/portfolio/celebspa.jpeg",
+      "smallImage": "img/portfolio/celebspa.jpeg",
       "leftImage": "img/portfolio/spaLeft.jpeg",
       "rightImage": "img/portfolio/spaRight.jpeg"
     },
     {
       "title": "Exquisite Design",
-      "largeImage": "img/portfolio/staircase.jpeg",
-      "smallImage": "img/portfolio/staircase.jpeg",
+      "largeImage": "img/portfolio/dining.jpg",
+      "smallImage": "img/portfolio/dining.jpg",
       "leftImage": "img/portfolio/staircaseLeft.jpeg",
       "rightImage": "img/portfolio/staircaseRight.jpeg"
     },
     {
       "title": "Dining with a View",
-      "largeImage": "img/portfolio/dining2.jpeg",
-      "smallImage": "img/portfolio/dining2.jpeg",
+      "largeImage": "img/portfolio/magiccarpet.jpg",
+      "smallImage": "img/portfolio/magiccarpet.jpg",
       "leftImage": "img/portfolio/dining2Left.jpeg",
       "rightImage": "img/portfolio/dining2Right.jpeg"
     },
