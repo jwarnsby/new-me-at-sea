@@ -34,30 +34,27 @@ export const ImageGallery = ({ data }) => {
   return (
     <div className={styles.container}>
       <div id="gallery" className="text-center">
-      <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Gallery</h2>
-          <p>
-            Explore the beautiful Celebrity Ascent!
-          </p>
+        <div className="container">
+          <div className="col-md-10 col-md-offset-1 section-title">
+            <h2>Gallery</h2>
+            <p>Explore the beautiful Celebrity Ascent!</p>
+          </div>
         </div>
       </div>
-    </div>
       <ul className={styles.slides}>
-        {data.map((item, index) => (
-          <li key={index} className={`${styles.slide} ${currentIndex === index ? styles.active : ''}`}>
-            <div className={`${styles.slidePartial} ${styles.slideLeft}`}>
-              <img src={item.leftImage} alt={item.title} />
-            </div>
-            <div className={`${styles.slidePartial} ${styles.slideRight}`}>
-              <img src={item.rightImage} alt={item.title} />
-            </div>
-            <h1 className={styles.title}>
-              <span className={styles.titleText}>{item.title}</span>
-            </h1>
-          </li>
-        ))}
-      </ul>
+  {data.map((item, index) => (
+    <li
+      key={index}
+      className={`${styles.slide} ${currentIndex === index ? styles.active : ''}`}
+      style={{ backgroundImage: `url(${item.largeImage})` }}
+    >
+      <h1 className={styles.title}>
+        <span className={styles.titleText}>{item.title}</span>
+      </h1>
+    </li>
+  ))}
+</ul>
+
       <ul className={styles.slideSelect}>
         <li className={`${styles.btn} ${styles.prev}`} onClick={() => handleButtonClick('prev')}>&lt;</li>
         {data.map((_, index) => (
@@ -72,11 +69,7 @@ export const ImageGallery = ({ data }) => {
 ImageGallery.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      largeImage: PropTypes.string,
-      smallImage: PropTypes.string,
-      leftImage: PropTypes.string.isRequired,
-      rightImage: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,small: PropTypes.string.isRequired, // Updated to use largeImage
     })
-  ).isRequired
+  ).isRequired,
 };
